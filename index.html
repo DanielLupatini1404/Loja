@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importar Arquivo</title>
+</head>
+<body>
+    <h1>Importar Arquivo</h1>
+    <form action="processar_arquivo.php" method="post" enctype="multipart/form-data">
+        <label for="arquivo">Escolha um arquivo:</label>
+        <input type="file" name="arquivo" id="arquivo" accept=".txt, .csv, .xml"> <!-- Aceitar apenas arquivos .txt, .csv ou .xml -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
