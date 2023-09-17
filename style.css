@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f0f0;
+}
+
+/* Estiliza os títulos das páginas */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estiliza botões */
+.button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estiliza links */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Estiliza uma classe específica */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
