@@ -14,3 +14,19 @@ h1, form, div {
     margin: 20px;
     border-radius: 10px;
 }
+.gb_B {
+    position: absolute;
+    top: 10px; /* Ajusta a distância do topo */
+    right: 10px; /* Ajusta a distância da direita */
+    background-color: #4285f4; /* Cor de fundo do link */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno (vertical, horizontal) */
+    border-radius: 5px; /* Borda arredondada */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo para o link quando passa o mouse por cima */
+.gb_B:hover {
+    background-color: #357ae8; /* Altera a cor de fundo ao passar o mouse */
+}
