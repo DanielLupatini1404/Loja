@@ -1,30 +1,16 @@
 body {
-    background-color: #f0f0f0;
+    background-image: url('blusa.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a área do body */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    font-family: Arial, sans-serif; /* Define uma fonte de fallback */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
 }
 
-/* Estiliza os títulos das páginas */
-h1 {
-    font-size: 24px;
-    color: #333;
-}
-
-/* Estiliza botões */
-.button {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-/* Estiliza links */
-a {
-    text-decoration: none;
-    color: #007BFF;
-}
-
-/* Estiliza uma classe específica */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+/* Estilo adicional para o conteúdo do formulário */
+h1, form, div {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
 }
