@@ -1,6 +1,6 @@
 body {
     background-image: url('https://blog.montink.com/wp-content/uploads/breaking-bad-581bc8c2e21f1-680x969-1.jpg'); /* Caminho para a imagem de fundo */
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a área do body */
+    background-size: 80%; /* Ajusta o tamanho da imagem para cobrir toda a área do body */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
     font-family: Arial, sans-serif; /* Define uma fonte de fallback */
     margin: 0; /* Remove margens padrão */
