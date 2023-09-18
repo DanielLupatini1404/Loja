@@ -20,11 +20,30 @@
         #cadastroCliente {
             text-align: left; /* Retorna o alinhamento padrão do formulário */
         }
+
+        /* Estilos para o botão "Usuário" */
+        #usuarioButton {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #4285f4;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #usuarioButton:hover {
+            background-color: #357ae8;
+        }
     </style>
 </head>
 <body>
     <h1>Cadastro de Cliente</h1>
-    <a class="gb_B" aria-label="Gmail (abre uma nova guia)" data-pid="23" href="importacao.php" target="_top">Usuário</a>
+    <a id="usuarioButton" href="importacao.php">Usuário</a> <!-- Link para importacao.php -->
+    
     <form id="cadastroCliente">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" required><br>
